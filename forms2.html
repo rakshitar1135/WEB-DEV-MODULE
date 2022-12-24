@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+ <h2>HTML FORMS</h2> 
+ <form action="#" onsubmit="onsignup(event)">
+    <label for="name">FIRST NAME</label>
+    <input type="text" id="fname" >
+    <label for="name">LAST NAME</label>
+    <input type="text" id="lname">
+    <label for="email">EMAIL ID</label>
+    <input type="text" id="emaikl">
+    <button>SIGN UP</button>
+ </form>  
+ <script>
+    function onsignup(event){
+event.preventDefault()
+console.log(event.target)
+    }
+ </script>
+</body>
+</html>
